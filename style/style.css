@@ -6,8 +6,6 @@
     font-family: "Inter", sans-serif;
 }
 
-/* common style */
-
 
 /* Navbar Section */
 #Navbar-Section {
@@ -51,6 +49,7 @@
     margin-top:24px;
     padding:12px;
     border-radius: 4px;
+    color: #FFFFFF;
     background-color: #469165;
     border:none;
     cursor: pointer;
@@ -120,7 +119,7 @@
     line-height: 25px;
     color: #FFFFFF;
     padding: 16px 5px;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     
 
 }
@@ -145,6 +144,10 @@
     border-radius: 5px;
 
 }
+.btn .button-1 img{
+    vertical-align: middle;
+}
+
 #banner .banner-content .btn .button-2{
     height:52px;
     width:198px;
@@ -155,8 +158,8 @@
    cursor: pointer;
    border-radius: 5px;
 
-
 }
+
 #notes-Section{
      /* width:85%;
     max-width:1360px;  */
@@ -164,7 +167,7 @@
 
 }
  #notes-Section .notes-container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
     justify-items: center;
    
@@ -206,6 +209,102 @@
     background-color: red;
     border-radius:50%;
 }
+
+#brain{
+    /* border: 1px solid red; */
+    margin: 120px;
+    align-items: center;
+    
+    
+}
+#brain .brain-Section{
+    display: flex;
+    gap:60px ;
+
+}
+#brain img {
+    width: 600px;
+    height: 600px;
+}
+#brain .brain-conten{
+    /* border: 1px solid red; */
+    margin: 102px 0;
+    padding: 30px;
+}
+#brain .brain-conten h6{
+    font-size: 16px;
+    line-height: 20px;
+    color:#469165;
+    margin-bottom:16px;
+}
+#brain .brain-conten h2{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+#brain .brain-conten p{
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+#brain .brain-conten ul{
+    list-style: none;
+
+}
+#brain .brain-conten img{
+    width: 24px ;
+    height: 20px;
+    vertical-align: middle;
+}
+   
+
+#early-access{
+    margin: 120px;
+}
+
+#early-access .early-container{
+    /* border: 1px solid red; */
+    background-color:#F7F6F2;
+    text-align: center;
+    padding:80px 0;
+}
+.early-container h3{
+    font-size: 40px;
+    margin-bottom:16px;
+}
+.early-container p{
+    padding:0 380px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    
+}
+.early-container button{
+      width:194px;
+    height:52px;
+    margin-top:24px;
+    padding:12px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-color: #469165;
+    border:none;
+    cursor: pointer;
+    margin-bottom:16px;
+
+}
+.early-container button img{
+    vertical-align: middle;
+}
+.btn-4:hover{
+    background-color:aqua;
+    color: #0D1321;
+    border: 2px solid #872BFF;
+}
+
+
+
+
+
+
+
 
 
 
