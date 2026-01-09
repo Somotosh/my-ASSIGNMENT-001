@@ -1,0 +1,152 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* common style */
+
+
+/* Navbar Section */
+#Navbar-Section {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    padding:0 20px;
+
+}
+#Navbar-Section .manu ul{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+#Navbar-Section .logo img {
+    padding: 16px 0 16px 0;
+
+
+}
+
+#Navbar-Section .manu {
+    display: flex;
+
+    list-style: none;
+    padding: 34px 0 34px 0;
+
+    gap: 32px;
+    line-height: 152%;
+
+}
+
+#Navbar-Section .manu a {
+    text-decoration: none;
+}
+
+#Navbar-Section .btn {
+    width:144px;
+    height:44px;
+    margin-top:24px;
+    padding:12px;
+    border-radius: 4px;
+    background-color: #469165;
+    border:none;
+    cursor: pointer;
+
+}
+
+#banner {
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 680px;
+
+}
+
+#banner .banner-container {
+    align-items: center;
+    width: 85%;
+    max-width: 1360px;
+
+}
+
+#banner .banner-content {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    margin-top: 120px;
+    margin-left: 160px;
+    padding-bottom: 170px;
+
+    /* margin: 120px 120px 180 px; */
+    padding: 0 250px;
+
+
+}
+#banner .banner-content .heading p{
+    color: #469165;
+     background-color: #FFFFFF; 
+     margin: 0 210px;
+     border-radius: 1000px;
+     padding:2px;
+     
+    
+}
+#banner .banner-content span{
+    color: #469165
+}
+
+
+
+
+#banner .banner-content h1 {
+    padding-top: 16px;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    color: #FFFFFF;
+
+}
+
+#banner .banner-content p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 16px 5px;
+
+}
+
+
+
+
+#banner .banner-content .btn {
+   display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    gap: 24px;
+    
+} 
+#banner .banner-content .btn .button-1{
+    height: 52px;
+    width: 240px;
+    padding: 16px;
+    background-color: #469165;
+    cursor: pointer;
+
+}
+#banner .banner-content .btn .button-2{
+    height:52px;
+    width:198px;
+    padding: 16px;
+   background: none;
+   color: #FFFFFF;
+   border: 1px solid #FFFFFF;
+   cursor: pointer;
+
+
+}
+
